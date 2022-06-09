@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7.2-dars</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+    <form class="js-form"  method="POST">
+        <div class="row  mt-5">
+            <h1 class="mb-3 text-center">Currency converter Money Gram</h1>
+            <div class="col-3">
+                <input class="form-control js-input" required  placeholder="sum of money" type="number">
+            </div>
+            <div class="col-6">  
+                <select required id="disabledSelect" class="form-select js-select">
+                  <option selected disabled>Currency</option>
+                  <option value="11045">USD</option>
+                  <option value="191,26">RUB</option>
+                  <option value="11754,97">EURO</option>
+                </select>
+                <h2 class="js-text mt-5">Summa</h2>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-primary" type="submit">CLICK</button>
+            </div>
+        </div>
+    </form>
+</div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
